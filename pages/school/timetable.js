@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './timetable.module.css'
+import styles from '../../styles/timetable.module.css'
 export default function resume() {
     return (
         <body>
