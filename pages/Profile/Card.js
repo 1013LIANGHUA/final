@@ -1,33 +1,61 @@
-import React from 'react';
-import styles from './Card.module.css';
-export default function Card() {
-  return (
-    <div className={styles.container}>
-      <h2 > Profile Card</h2>
-
-      <div className={styles.card}>
-        <img
-          src='https://res.cloudinary.com/dkla3sb3q/image/upload/v1623584068/medium_S_37609491_0bdbf75786.jpg'
-          alt=''
-        />
-        <h1>Liang Hua CHEN</h1>
-        <p className={styles.title}>Student Information Engineering</p>
-        <p> Tamkang University</p>
-        <div className={styles.icon}>
-          <a href='https://www.instagram.com/1013_0_0/'>
-            <i class='fa fa-instagram'></i>
-          </a>
-          <a href='https://www.facebook.com/profile.php?id=100003388584955'>
-            <i class='fa fa-facebook'></i>
-          </a>
-        </div>
-        <p>
-          <button className={styles.button}>
-            Contact{' '}
-            <a href='https://www.facebook.com/profile.php?id=100003388584955'></a>
-          </button>
-        </p>
-      </div>
-    </div>
-  )
-}
+// import React from 'react';
+// import styles from './Card.module.css';
+// export default function Card() {
+//   return (
+    
+//     <aside class="profile-card">
+//     <header>
+//       {/* <!-- here’s the avatar --> */}
+//       <a target="_blank" href="#">
+//         <img src="http://lorempixel.com/150/150/people/" class="hoverZoomLink">
+//       </a>
+  
+//       {/* <!-- the username --> */}
+//       <h1>
+//               John Doe
+//             </h1>
+  
+//       {/* <!-- and role or location --> */}
+//       <h2>
+//               Better Visuals
+//             </h2>
+  
+//     </header>
+  
+//     {/* <!-- bit of a bio; who are you? --> */}
+//     <div class="profile-bio">
+  
+//       <p>
+//         It takes monumental improvement for us to change how we live our lives. Design is the way we access that improvement.
+//       </p>
+  
+//     </div>
+  
+//     {/* <!-- some social links to show off --> */}
+//     <ul class="profile-social-links">
+//       <li>
+//         <a target="_blank" href="https://www.facebook.com/creativedonut">
+//           <i class="fa fa-facebook"></i>
+//         </a>
+//       </li>
+//       <li>
+//         <a target="_blank" href="https://twitter.com/dropyourbass">
+//           <i class="fa fa-twitter"></i>
+//         </a>
+//       </li>
+//       <li>
+//         <a target="_blank" href="https://github.com/vipulsaxena">
+//           <i class="fa fa-github"></i>
+//         </a>
+//       </li>
+//       <li>
+//         <a target="_blank" href="https://www.behance.net/vipulsaxena">
+         
+//           <i class="fa fa-behance"></i>
+//         </a>
+//       </li>
+//     </ul>
+//   </aside>
+  
+//   )
+// }

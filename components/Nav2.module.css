@@ -138,15 +138,26 @@
 }
 .h1{
   color: #fff;
-  font-size: 50px;
+  font-size: 80px;
 }
 .title {
   color: grey;
-  font-size: 35px;
+  font-size: 20px;
+  width: 700px;
+  padding: 20px;
   
 }
-.ab{
-  color: #e64a19;
-  right:100px;
-  text-align:right;
+.section{
+  position:relative;
+  color: white;
+  left:50% ;
+  width:300px;
+  height:200px;
+
+  /* text-align:right; */
+}
+.p1{
+  position: relative;
+  color: antiquewhite;
+  left: 45px;
 }

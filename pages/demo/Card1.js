@@ -1,34 +1,20 @@
-import styles from './Card.module.scss'
+import styles from './Card.module.css'
 
 export default function Card() {
     return (
-        <div className={styles.cardContainer}>
-            <div className={styles.card}>
-                <div className={styles.card__body}>
-                <img src="https://images.unsplash.com/photo-1536304929831-ee1ca9d44906?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ" alt="" className={styles.card__image} />
-                <h2 className={styles.card__title}>The Everyday Salad</h2>
-                <p className={styles.card__description}>Take your boring salads up a knotch. This recipe is perfect for lunch and only contains 5 ingredients!</p>
-                </div>
-                <button className={styles.card__btn}>View Recipe</button>
-            </div>
-
-            <div className={styles.card}>
-                <div className={styles.card__body}>
-                <img src="https://images.unsplash.com/photo-1476124369491-e7addf5db371?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ" alt="" className={styles.card__image} />
-                <h2 className={styles.card__title}>Simple Risotto</h2>
-                <p className={styles.card__description}>Fear Risotto no more! This simple recipe is perfect for family dinners.</p>
-                </div>
-                <button className={styles.card__btn}>View Recipe</button>
-            </div>
-
-            <div className={styles.card}>
-                <div className={styles.card__body}>
-                <img src="https://images.unsplash.com/photo-1529928520614-7c76e2d99740?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ" alt="" className={styles.card__image} />
-                <h2 className={styles.card__title}>Baked Cod with Vegetables</h2>
-                <p className={styles.card__description}>Baked Cod with Vegetables. 30 minute meal!</p>
-                </div>
-                <button className={styles.card__btn}>View Recipe</button>
-            </div>
+        <div className={styles.wrapper}>
+        <div className={styles.image-wrapper}>
+           <img src="//cdn0.iconfinder.com/data/icons/user-pictures/100/male-256.png" alt="Alex Tkachov" />
+           <h1 className={styles.name}>Alex Tkachov</h1>
+           <p className={styles.description}>Web Developer | Designer | Dreamer</p>
+           
+           <ul className={styles.social-media}>
+              <a href="https://www.instagram.com/simply_aalex"><i class="fa fa-instagram" target="_blank"></i></a>
+              <a href="https://www.behance.net/alextkachov"><i class="fa fa-behance" target="_blank"></i></a>
+              <a href="https://codepen.io/alexpopovich" target="_blank"><i class="fa fa-codepen"></i></a>
+           </ul>
+           <a href="https://twitter.com/simply_aalex" target="_blank" class="follow"><i class="fa fa-twitter"></i>Follow</a>
         </div>
+     </div>
     )
 }

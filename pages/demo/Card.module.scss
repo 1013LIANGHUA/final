@@ -1,80 +1,102 @@
-/*   color variables */
-$clr-primary: #d50000;
-$clr-primary-hover: #29e6a7;
-$clr-primary-dark: #039d69;
-$clr-gray100: #f9fbff;
-$clr-gray150: #f4f6fb;
-$clr-gray200: #eef1f6;
-$clr-gray300: #e1e5ee;
-$clr-gray400: #767b91;
-$clr-gray500: #4f546c;
-$clr-gray600: #2a324b;
-$clr-gray700: #161d34;
+// @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 
-/*   border radius */
-$radius: 0.2rem;
+// // Variables
+// $font: 'PT Sans', sans-serif;;
+// $bg: linear-gradient(to right, #E75A7C, #141B41);
+// $bg_wrapper: linear-gradient(to left, #306BAC, #141B41);
+// $white: #fff;
+// $black: #212129;
+// $grey: #A1A2AD;
+// $selection: #272838;
 
-/* max-width */
-$max-width: 100rem;
+// .selection {
+//    background: $selection;
+// }
 
-/* animation-curve */
-$animation-curve: cubic-bezier(1, 0, 0, 1);
+// *{
+//    margin: 0;
+//    padding: 0;
+//    font-family: $font;
+//    text-align: center;
+//    text-decoration: none;
+   
+//    -webkit-box-sizing: border-box;
+//    -moz-box-sizing: border-box;
+//    -ms-box-sizing: border-box;
+//    box-sizing: border-box;
+// }
 
-.cardContainer {
-    margin: 15rem 3rem 3rem 3rem;
-    display: grid;
-    //grid自適應畫面
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 25rem));
-    grid-gap: 3rem;
-    justify-content: center;
-}
+// .img {
+//    max-width: 100%;
+// }
 
-.card {
-    overflow: hidden;
-    box-shadow: 0 .2rem 2rem $clr-gray300;
-    border-radius: $radius;
-    display: flex;
-    flex-direction: column;
-    //card內所有元素平均分配位置
-    justify-content: space-between;
-    cursor: pointer;
-    transition: transform 200ms ease-in;
+// .html, body {
+//    height: 100%;
+// }
 
-    &__image {
-        height: 18rem;
-        width: 100%;
-        //圖片填滿設定的寬高，並維持比例
-        object-fit: cover;
-    }
+// // body {
+// //    background: $bg;
+// // }
 
-    &__title {
-        padding: 1.5rem;
-    }
-
-    &__description {
-        padding: 0 1.5rem;
-    }
-
-    &__btn {
-        padding: 1.5rem;
-        font-family: inherit;
-        font-weight: bold;
-        font-size: 1.5rem;
-        margin: 1.5rem;
-        border: .2rem solid $clr-primary;
-        background: transparent;
-        color: $clr-primary;
-        border-radius: $radius;
-        transition: background 200ms ease-in, color 200ms ease-in;
-    }
-
-    &:hover {
-        transform: scale(1.02);
-    }
-
-    &:hover &__btn {
-        background: $clr-primary;
-        color: white;
-    }
-}
-
+// .wrapper {
+//    max-width: 600px;
+//    position: relative;
+//    background: $bg_wrapper;
+//    color: $white;
+//    margin: 0 auto;
+//    // margin-top: 30px;
+//    padding: 30px;
+//    border-radius: 20px;
+//    box-shadow: 0px 0px 80px 1px $black;
+//    .image-wrapper img {
+//       width: 225px;
+//       border-radius: 50%;
+//       -webkit-user-select: none;
+//       -moz-user-select: none;
+//       -ms-user-select: none;
+//       user-select: none;
+//    }
+//    .name {
+//       font-size: 2.2em;
+//    }
+//    .description {
+//       color: $grey;
+//       text-transform: uppercase;
+//       margin-top: 10px;
+//    }
+//    .social-media a i {
+//       color: $white;
+//       font-size: 2em;
+//       margin-left: 10px;
+//       margin-top: 10px;
+//       padding: 15px;
+//       transition: 300ms;
+//       &:hover {
+//          color: $grey;
+//          transition: 300ms;
+//       }
+//    }
+//    .follow {
+//       background: $white;
+//       color: $black;
+//       text-transform: uppercase;
+//       font-size: 1.2em;
+//       letter-spacing: 0.1em;
+//       padding: 10px 45px;
+//       border-radius: 30px;
+//       transition: 300ms;
+//       -webkit-user-select: none;
+//       -moz-user-select: none;
+//       -ms-user-select: none;
+//       user-select: none;
+//       &:hover {
+//          background: $black;
+//          color: $white;
+//          transition: 300ms;
+//       }
+//       .fa-twitter {
+//          margin-right: 5px;
+//          margin-top: 15px;
+//       }
+//    }
+// }
