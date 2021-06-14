@@ -28,45 +28,45 @@ export default function Nav2() {
                 <a href='http://localhost:3000/school/timetable'>課表</a>
               </li>
               <li className={styles.link}>
-                <a href='#'>Plugins</a>
+                <a href='#'></a>
               </li>
               <li className={styles.link}>
-                <a href='#'>Tutorials</a>
+                <a href='#'></a>
               </li>
             </ul>
           </li>
           <li className={styles.link}>
-            <a href='#'>履歷</a>
+            <a href='#'>課程東西</a>
 
             <ul>
               <li className={styles.link}>
-                <a href='#'>Resources</a>
+                <a href='#'></a>
               </li>
               <li className={styles.link}>
-                <a href='#'>Links</a>
+                <a href='#'></a>
               </li>
               <li className={styles.link}>
-                <a href='#'>Tutorials</a>
+                <a href='#'></a>
 
                 <ul>
                   <li className={styles.link}>
-                    <a href='#'>HTML/CSS</a>
+                    <a href='#'></a>
                   </li>
                   <li className={styles.link}>
-                    <a href='#'>jQuery</a>
+                    <a href='#'></a>
                   </li>
                   <li className={styles.link}>
-                    <a href='#'>Other</a>
+                    <a href='#'></a>
 
                     <ul>
                       <li className={styles.link}>
-                        <a href='#'>Stuff</a>
+                        <a href='#'></a>
                       </li>
                       <li className={styles.link}>
-                        <a href='#'>Things</a>
+                        <a href='#'></a>
                       </li>
                       <li className={styles.link}>
-                        <a href='#'>Other Stuff</a>
+                        <a href='#'></a>
                       </li>
                     </ul>
                   </li>
@@ -86,7 +86,7 @@ export default function Nav2() {
             <a href='#'>個人資料</a>
           </li>
           <li className={styles.link}>
-            <a href='#'>關於我</a>
+            <a href='http://localhost:3000/about/me'>關於我</a>
           </li>
           <li className={styles.icon}>
           <a href='https://www.instagram.com/1013_0_0/'><i class="fab fa-instagram"></i></a>
