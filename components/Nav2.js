@@ -83,7 +83,7 @@ export default function Nav2() {
             <a href=''>連結</a>
           </li>
           <li className={styles.link}>
-            <a href='#'>個人資料</a>
+            <a href='http://localhost:3000/Profile/Card'>個人資料</a>
           </li>
           <li className={styles.link}>
             <a href='http://localhost:3000/about/me'>關於我</a>
@@ -102,13 +102,28 @@ export default function Nav2() {
           src='https://res.cloudinary.com/dkla3sb3q/image/upload/v1623584064/large_S_37609491_0bdbf75786.jpg'
           alt=''
         />
-        <div >
+        {/* <div >
             <section className={styles.section}>
             
           <h1 className={styles.h1}>陳亮華</h1>
           <p className={styles.p1}> Tamkang University</p>
           <p className={styles.title}>Student Information Engineering</p>
             </section>
+        </div> */}
+        <div className={styles.absolout}>
+            <figure className={styles.snip1336}>
+  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample87.jpg" alt="sample87" />
+  <figcaption>
+    <img className={styles.profile1} src="https://res.cloudinary.com/dkla3sb3q/image/upload/v1623687955/medium__524b91c737.jpg" alt="profile-sample4"  />
+    <h2 className={styles.h2}>陳亮華<span>淡江大學資訊工程學系</span></h2>
+    <p>email:209410306@gms.tku.edu.tw</p>
+    <p>Tel:0912345678</p>
+    <p>home:台北市大安區100號8樓</p>
+    <a href="#" class="follow">Follow</a>
+    <a href="#" class="info">More Info</a>
+  </figcaption>
+</figure>
+
         </div>
         {/* <img className={styles.img2} src="https://res.cloudinary.com/dkla3sb3q/image/upload/v1623638993/S_37675097_0d193aa1eb.jpg" alt=""/> */}
       </div>
