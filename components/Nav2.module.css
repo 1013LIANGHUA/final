@@ -161,3 +161,7 @@
   color: antiquewhite;
   left: 45px;
 }
+.icon{
+  position: relative;
+  text-align: right;
+}

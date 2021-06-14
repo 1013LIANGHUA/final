@@ -1,13 +1,18 @@
 import styles from './Nav2.module.css';
 import React from 'react';
 import Head from 'next/head';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 export default function Nav2() {
   return (
     <div className={styles.container}>
       <Head>
-      <FontAwesomeIcon icon={'fa-solid fa-phone'} />
+      <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
       </Head>
 
       <nav className={styles.nav}>
@@ -82,6 +87,12 @@ export default function Nav2() {
           </li>
           <li className={styles.link}>
             <a href='#'>關於我</a>
+          </li>
+          <li className={styles.icon}>
+          <a href='https://www.instagram.com/1013_0_0/'><i class="fab fa-instagram"></i></a>
+          </li>
+          <li className={styles.icon}>
+          <a href='https://www.facebook.com/profile.php?id=100003388584955'><i class="fab fa-facebook"></i></a>
           </li>
         </ul>
       </nav>
