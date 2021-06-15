@@ -28,10 +28,10 @@ export default function Nav2() {
                 <a href='http://localhost:3000/school/timetable'>課表</a>
               </li>
               <li className={styles.link}>
-                <a href='#'></a>
+                <a href='#'>nono</a>
               </li>
               <li className={styles.link}>
-                <a href='#'></a>
+                <a href='#'>nono</a>
               </li>
             </ul>
           </li>
@@ -40,13 +40,13 @@ export default function Nav2() {
 
             <ul>
               <li className={styles.link}>
-                <a href='#'></a>
+                <a href='#'>nono</a>
               </li>
               <li className={styles.link}>
-                <a href='#'></a>
+                <a href='#'>nono</a>
               </li>
               <li className={styles.link}>
-                <a href='#'></a>
+                <a href='#'>nono</a>
 
                 <ul>
                   <li className={styles.link}>
@@ -58,17 +58,6 @@ export default function Nav2() {
                   <li className={styles.link}>
                     <a href='#'></a>
 
-                    <ul>
-                      <li className={styles.link}>
-                        <a href='#'></a>
-                      </li>
-                      <li className={styles.link}>
-                        <a href='#'></a>
-                      </li>
-                      <li className={styles.link}>
-                        <a href='#'></a>
-                      </li>
-                    </ul>
                   </li>
                 </ul>
               </li>
