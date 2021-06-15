@@ -3,6 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
 
+
 /* .body {
 	background: #212121;
 	font-size:22px;
@@ -115,6 +116,16 @@
   left:280px;
   z-index:2; 
 }
+
+
+
+
+/* @media screen and (min-width:900px) { 
+  .img{
+    width: 60px;
+  }
+} */
+
 .img2 {
 	/* display: block; */
 	margin: auto;
@@ -168,18 +179,28 @@
 /*/profile card /*/
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,600);
+
+/* @media screen and (min-width:798px) { 
+  .snip1336{
+    width: 50%;
+  }
+} */
+.snip1336:hover {
+  transform: scale(1.2, 1.2);
+}
 .snip1336 {
   font-family: 'Roboto', Arial, sans-serif;
-  position: relative;
+  position: relative; 
   overflow: hidden;
   margin: 20px;
   min-width: 300px;
-  max-width: 450px;
-  width: 100%;
+  max-width: 450px; 
+  width: 100%; 
   color: #ffffff;
   text-align: left;
   line-height: 1.4em;
   background-color: #141414;
+  margin: 0 auto;
 }
 .snip1336 * {
   -webkit-box-sizing: border-box;
