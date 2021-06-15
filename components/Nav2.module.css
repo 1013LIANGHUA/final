@@ -135,11 +135,9 @@
 	z-index:2;
   }
 .img:hover {
-  transform: scale(1.2, 1.2);
+  transform: scale(1.1, 1.1);
 }
-.img2:hover {
-	transform: scale(1.2, 1.2);
-  }
+
 /* Change this in order to change the Dropdown symbol */
 .link > a:after {
   content: ' +';
@@ -186,7 +184,7 @@
   }
 } */
 .snip1336:hover {
-  transform: scale(1.2, 1.2);
+  transform: scale(1.1, 1.1);
 }
 .snip1336 {
   font-family: 'Roboto', Arial, sans-serif;
