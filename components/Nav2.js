@@ -116,11 +116,11 @@ export default function Nav2() {
   <figcaption>
     <img className={styles.profile1} src="https://res.cloudinary.com/dkla3sb3q/image/upload/v1623687955/medium__524b91c737.jpg" alt="profile-sample4"  />
     <h2 className={styles.h2}>陳亮華<span>淡江大學資訊工程學系</span></h2>
-    <p>email:209410306@gms.tku.edu.tw</p>
+    <p>email:12345678@gms.tku.edu.tw</p>
     <p>Tel:0912345678</p>
     <p>home:台北市大安區100號8樓</p>
-    <a href="#" class="follow">Follow</a>
-    <a href="#" class="info">More Info</a>
+    <a href="https://www.facebook.com/profile.php?id=100003388584955" class="follow">Follow</a>
+    <a href="https://www.instagram.com/1013_0_0/" class="info">More Info</a>
   </figcaption>
 </figure>
 
