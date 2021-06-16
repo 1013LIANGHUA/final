@@ -79,6 +79,7 @@
 
 .nav a:hover {
   background-color:#000000b0;
+ 
 }
 
 /* Hide Dropdowns by Default */
@@ -86,11 +87,13 @@
   display: none;
   position: absolute;
   top: 60px; /* the height of the main nav */
+ 
 }
 
 /* Display Dropdowns on Hover */
 .nav ul li:hover > ul {
   display: inherit;
+  
 }
 
 /* Fisrt Tier Dropdown */
@@ -98,24 +101,19 @@
   width: 170px;
   float: none;
   display: list-item;
-  position: relative;
+   position: relative; 
+  
 }
 
 /* Second, Third and more Tiers	*/
 .nav ul ul ul li {
-  position: relative;
+ position: relative; 
   top: -60px;
   left: 170px;
+
 }
 
-.img {
-  display: block; 
-  margin: auto; 
-  width: 28%;
-   position:absolute;
-  left:280px;
-  z-index:2; 
-}
+
  
 
 
@@ -134,13 +132,12 @@
 	left:730px; 
 	z-index:2;
   } */
- .img:hover {
-  transform: scale(1.1, 1.1);
-} 
+ 
 
 /* Change this in order to change the Dropdown symbol */
 .link > a:after {
   content: ' +';
+  
 }
 .link > a:only-child:after {
   content: '';
@@ -311,3 +308,4 @@ left: 45%;
     $(this).removeClass("hover");
   }
 ); */
+
