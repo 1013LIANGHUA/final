@@ -1,7 +1,7 @@
 import styles from './Nav2.module.css';
 import React from 'react';
 import Head from 'next/head';
-
+import '../pages/about/me.js';
 
 export default function Nav2() {
   return (
@@ -18,17 +18,17 @@ export default function Nav2() {
       <nav className={styles.nav}>
         <ul>
           <li className={styles.link}>
-            <a href='#'>Home</a>
+            <a href='/about/me'>Home</a>
           </li>
           <li className={styles.link}>
             <a href='#'>作品集</a>
 
             <ul>
               <li className={styles.link}>
-                <a href='http://localhost:3000/school/timetable'>課表</a>
+                <a href='/school/timetable'>課表</a>
               </li>
               <li className={styles.link}>
-                <a href='http://localhost:3000/resume/resume'>履歷</a>
+                <a href='/resume/resume'>履歷</a>
               </li>
               <li className={styles.link}>
                 <a href='#'>nono</a>
@@ -64,7 +64,7 @@ export default function Nav2() {
             </ul>
           </li>
           <li className={styles.link}>
-            <a href='https://1092-nextjs-djevents-209410306.vercel.app/project/meals'>
+            <a href='/project/meals'>
               MealDB
             </a>
           </li>
@@ -72,10 +72,10 @@ export default function Nav2() {
             <a href=''>連結</a>
           </li>
           <li className={styles.link}>
-            <a href='http://localhost:3000/Profile/Card'>個人資料</a>
+            <a href='/Profile/Card'>個人資料</a>
           </li>
           <li className={styles.link}>
-            <a href='http://localhost:3000/about/me'>關於我</a>
+            <a href='/about/me'>關於我</a>
           </li>
           <li className={styles.icon}>
           <a href='https://www.instagram.com/1013_0_0/'><i class="fab fa-instagram"></i></a>
