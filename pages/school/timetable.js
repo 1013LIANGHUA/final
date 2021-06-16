@@ -1,9 +1,11 @@
 import React from 'react'
+import Layout from '../../components/Layout'
 import styles from '../../styles/timetable.module.css'
 export default function resume() {
     return (
+      <Layout>
         <body>
-         {/* <table border="1"  style="width: 80%" align="center"> */}
+          {/* <table border="1"  style={{width: "80%"}} align={{center}}>  */}
           <tr align="center">
             <th className={styles.name} rowspan="2">陳亮華</th>
             <th className={styles.title} colspan="7">109年度第一學期課表</th>
@@ -165,5 +167,6 @@ export default function resume() {
           </tr>
          {/* </table>  */}
        </body>
+       </Layout>
     )
 }

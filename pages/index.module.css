@@ -1,3 +1,14 @@
 .h1{
     color:red;
 }
+.img {
+    display: block; 
+    margin: auto; 
+    width: 28%;
+     position:absolute;
+    left:280px;
+    z-index:2; 
+  }
+  .img:hover {
+    transform: scale(1.1, 1.1);
+  } 

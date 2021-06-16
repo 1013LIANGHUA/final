@@ -1,7 +1,7 @@
 import styles from './Nav2.module.css';
 import React from 'react';
 import Head from 'next/head';
-import '../pages/about/me.js';
+
 
 export default function Nav2() {
   return (
@@ -18,7 +18,7 @@ export default function Nav2() {
       <nav className={styles.nav}>
         <ul>
           <li className={styles.link}>
-            <a href='/about/me'>Home</a>
+            <a href='/'>Home</a>
           </li>
           <li className={styles.link}>
             <a href='#'>作品集</a>
@@ -85,12 +85,12 @@ export default function Nav2() {
           </li>
         </ul>
       </nav>
-      <div className={styles.container}>
+      {/* <div className={styles.container}>
         <img
           className={styles.img}
           src='https://res.cloudinary.com/dkla3sb3q/image/upload/v1623584064/large_S_37609491_0bdbf75786.jpg'
           alt=''
-        />
+        /> */}
         
         {/* <div >
             <section className={styles.section}>
@@ -100,7 +100,7 @@ export default function Nav2() {
           <p className={styles.title}>Student Information Engineering</p>
             </section>
         </div>  */}
-        <div className={styles.absolout}>
+        {/* <div className={styles.absolout}>
             <figure className={styles.snip1336}>
   <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample87.jpg" alt="sample87" />
   <figcaption>
@@ -112,11 +112,11 @@ export default function Nav2() {
     <a href="https://www.facebook.com/profile.php?id=100003388584955" class="follow">Follow</a>
     <a href="https://www.instagram.com/1013_0_0/" class="info">More Info</a>
   </figcaption>
-</figure>
+</figure> */}
 
-        </div>
+        {/* </div> */}
         {/* <img className={styles.img2} src="https://res.cloudinary.com/dkla3sb3q/image/upload/v1623638993/S_37675097_0d193aa1eb.jpg" alt=""/> */}
-      </div>
+      {/* </div> */}
     </div>
   );
 }

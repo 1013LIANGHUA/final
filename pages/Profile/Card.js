@@ -1,7 +1,9 @@
 import React from 'react';
+import Layout from '../../components/Layout';
 import styles from './card.module.css';
 export default function Card() {
   return (
+    <Layout>
     <div className={styles.absolout}>
       <figure className={styles.snip1336}>
         <img
@@ -20,7 +22,7 @@ export default function Card() {
           <p>email:12345678@gms.tku.edu.tw</p>
           <p>Tel:0912345678</p>
           <p>home:台北市大安區100號8樓</p>
-          <a href='#' class='follow'>
+          <a href='' class='follow'>
             Follow
           </a>
           <a href='#' class='info'>
@@ -29,5 +31,6 @@ export default function Card() {
         </figcaption>
       </figure>
     </div>
+    </Layout>
   );
 }

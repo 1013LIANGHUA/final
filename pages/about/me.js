@@ -1,8 +1,10 @@
 import React from 'react'
+import Layout from '../../components/Layout'
 import styles from './me.module.css'
 export default function me() {
     return (
-        <div className={styles.container}>
+        <Layout>
+           <div className={styles.container}>
            <header className={styles.masthead}>
   <p className={styles.masthead_intro}>Hi I'm</p>
   <h1 className={styles.masthead_heading}>亮華!</h1>
@@ -41,6 +43,7 @@ export default function me() {
     </ul>
   
 </footer> 
-        </div>
+</div>
+        </Layout>
     )
 }

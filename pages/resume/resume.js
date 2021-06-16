@@ -1,9 +1,11 @@
 import React from 'react';
 import styles from './resume.module.css';
 import Head from 'next/head';
+import Layout from '../../components/Layout';
 
 export default function resume() {
   return (
+    <Layout>
     <div className={styles.container}>
       <Head>
         <link
@@ -243,5 +245,6 @@ export default function resume() {
         </div>
       </div>
     </div>
+    </Layout>
   );
 }
