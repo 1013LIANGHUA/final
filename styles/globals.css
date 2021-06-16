@@ -15,7 +15,8 @@ html,
   background: rgb(7, 6, 6);
   font-size:22px;
   word-wrap:break-word !important; 
-  background-image: url(https://res.cloudinary.com/dkla3sb3q/image/upload/v1623778883/_b9a77b7dfc.jpg);
+  background-image: url(https://res.cloudinary.com/dkla3sb3q/image/upload/v1623855839/987_642148a52e.jpg);
+  /* https://res.cloudinary.com/dkla3sb3q/image/upload/v1623778883/_b9a77b7dfc.jpg */
 } 
  /* body {
 	background: #212121;
@@ -26,14 +27,14 @@ html,
 	font-family: 'Open Sans', sans-serif;
 	} */
   
-a {
+.a {
   text-decoration: none;
   color: steelblue;
 }
-p {
+.p {
   margin: 10px 0;
 }
-h1 {
+.h1 {
   margin-bottom: 20px;
 }
 .btn {

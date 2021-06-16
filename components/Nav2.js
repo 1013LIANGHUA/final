@@ -36,7 +36,7 @@ export default function Nav2() {
             </ul>
           </li>
           <li className={styles.link}>
-            <a href='#'>課程東西</a>
+            <a href='#'>Class Demo</a>
 
             <ul>
               <li className={styles.link}>
