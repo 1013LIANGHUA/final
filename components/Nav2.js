@@ -28,7 +28,7 @@ export default function Nav2() {
                 <a href='http://localhost:3000/school/timetable'>課表</a>
               </li>
               <li className={styles.link}>
-                <a href='#'>nono</a>
+                <a href='http://localhost:3000/resume/resume'>履歷</a>
               </li>
               <li className={styles.link}>
                 <a href='#'>nono</a>
@@ -91,6 +91,7 @@ export default function Nav2() {
           src='https://res.cloudinary.com/dkla3sb3q/image/upload/v1623584064/large_S_37609491_0bdbf75786.jpg'
           alt=''
         />
+        
         {/* <div >
             <section className={styles.section}>
             
@@ -98,7 +99,7 @@ export default function Nav2() {
           <p className={styles.p1}> Tamkang University</p>
           <p className={styles.title}>Student Information Engineering</p>
             </section>
-        </div> */}
+        </div>  */}
         <div className={styles.absolout}>
             <figure className={styles.snip1336}>
   <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample87.jpg" alt="sample87" />

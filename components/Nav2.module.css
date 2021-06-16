@@ -53,7 +53,7 @@
 
 .nav {
   margin: 50px 0;
-  background-color: #e64a19;
+  background-color: #000000b0;
 }
 
 .nav ul {
@@ -65,7 +65,7 @@
 
 .nav ul li {
   display: inline-block;
-  background-color: #e64a19;
+  background-color:  #000000b0;
 }
 
 .nav a {
@@ -78,7 +78,7 @@
 }
 
 .nav a:hover {
-  background-color: #000000;
+  background-color:#000000b0;
 }
 
 /* Hide Dropdowns by Default */
@@ -109,34 +109,34 @@
 }
 
 .img {
-  /* display: block; 
-  margin: auto; */
+  display: block; 
+  margin: auto; 
   width: 28%;
    position:absolute;
   left:280px;
   z-index:2; 
 }
+ 
 
 
-
-
-/* @media screen and (min-width:900px) { 
+/* 
+@media screen and (min-width:900px) { 
   .img{
     width: 60px;
   }
-} */
+}  */
 
-.img2 {
+/* .img2 {
 	/* display: block; */
-	margin: auto;
+	/* margin: auto;
 	width: 28%;
 	position:absolute;
 	left:730px; 
 	z-index:2;
-  }
-.img:hover {
+  } */
+ .img:hover {
   transform: scale(1.1, 1.1);
-}
+} 
 
 /* Change this in order to change the Dropdown symbol */
 .link > a:after {
@@ -163,9 +163,9 @@
   width:300px;
   height:200px;
 
-  /* text-align:right; */
+   text-align:right; 
 }
-.p1{
+ .p1{
   position: relative;
   color: antiquewhite;
   left: 45px;
@@ -173,17 +173,17 @@
 .icon{
   position: relative;
   text-align: right;
-}
-/*/profile card /*/
+} 
+/* profile card  */
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,600);
+ @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,600);
 
-/* @media screen and (min-width:798px) { 
+ @media screen and (min-width:798px) { 
   .snip1336{
     width: 50%;
   }
-} */
-.snip1336:hover {
+} 
+ .snip1336:hover {
   transform: scale(1.1, 1.1);
 }
 .snip1336 {
@@ -280,23 +280,22 @@
   opacity: 0.8;
 }
 
-.absolout{
-  /* position:absolute; */
-  /* left: 50%;
-  top:400px; */
-  /* margin: 0; */
-  /* padding: 0;
-  margin: 0 auto; */ 
-  /* width:300px; */
-  /* height:200px; */
-  /* background-color:#FFB326; */
-  /* position:absolute; 
-  margin:0px auto; */
-position: absolute;
+ .absolout{ 
+  position:absolute; 
+  left: 50%;
+  top:400px; 
+  margin: 0; 
+  padding: 0;
+  margin: 0 auto; 
+  width:300px; 
+   height:200px; 
+   background-color:#1a1615b0; 
+  position:absolute; 
+  margin:0px auto; 
+ position: absolute;
 top: 10%;
 left: 45%;
 }
-
 .profile1{
   width: 60%;
   position:relative;

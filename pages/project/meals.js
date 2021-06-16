@@ -2,6 +2,7 @@ import styles from '../../styles/meal.module.css';
 //import meals from '../component/data/meals-data';
 import Head from 'next/head';
 import { useState } from 'react';
+import Layout from '../../components/Layout'
  
 export default function meals() {
   const [input, setInput] = useState('');
@@ -25,7 +26,7 @@ export default function meals() {
   };
  
   return (
-    <div>
+    <Layout>
       <Head>
         <link
           rel='stylesheet'
@@ -74,7 +75,7 @@ export default function meals() {
           ))}
         </div>
       </div>
-    </div>
+    </Layout>
   );
 }
  
