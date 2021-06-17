@@ -48,7 +48,7 @@ export default function Nav2() {
               <li className={styles.link}>
                 <a href='/classdemo/Card1'>RecipeCard</a>
 
-                <ul>
+                {/* <ul>
                   <li className={styles.link}>
                     <a href='#'></a>
                   </li>
@@ -59,7 +59,7 @@ export default function Nav2() {
                     <a href='#'></a>
 
                   </li>
-                </ul>
+                </ul> */}
               </li>
             </ul>
           </li>
