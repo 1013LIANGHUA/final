@@ -40,7 +40,7 @@ export default function Nav2() {
 
             <ul>
               <li className={styles.link}>
-                <a href='#'>nono</a>
+                <a href='/classdemo/attack'>attack</a>
               </li>
               <li className={styles.link}>
                 <a href='#'>nono</a>

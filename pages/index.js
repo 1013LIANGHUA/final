@@ -29,7 +29,7 @@ export default function HomePage() {
             淡江大學 資訊工程學系
           </p>
           <br />
-          <a href='http://www.designshock.com/'> DesignShock.com </a>
+          <a href='https://www.tku.edu.tw'> TKU.com </a>
         </div>
       </div>
 
