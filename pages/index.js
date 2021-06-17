@@ -4,7 +4,7 @@ import styles from './index.module.css';
 export default function HomePage() {
   return (
     <Layout description='Welcome to me'>
-      {/* <div className={styles.container}>
+       {/* <div className={styles.container}>
         <div className={styles.card}>
           <div >
             <img
@@ -17,8 +17,8 @@ export default function HomePage() {
             <p></p>
           </div>
         </div>
-      </div>   
-      <div className={styles.container}> */}
+      </div>    */}
+      <div className={styles.container}>
         <div className={styles.box1}>
           <h1>陳亮華</h1>
           <img
@@ -29,9 +29,9 @@ export default function HomePage() {
             淡江大學 資訊工程學系
           </p>
           <br />
-          <a href='https://www.tku.edu.tw'> TKU.com </a>
+          <a href='https://www.tku.edu.tw'> Tku.com </a>
         </div>
-      {/* </div> */}
+      </div>
 
     </Layout>
   );
