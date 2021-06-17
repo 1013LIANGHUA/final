@@ -43,7 +43,7 @@ export default function Nav2() {
                 <a href='/classdemo/attack'>attack</a>
               </li>
               <li className={styles.link}>
-                <a href='#'>nono</a>
+                <a href='/classdemo/modal'>modal-start</a>
               </li>
               <li className={styles.link}>
                 <a href='#'>nono</a>

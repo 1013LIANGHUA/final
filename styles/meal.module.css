@@ -28,7 +28,7 @@
 
 .container {
   margin: auto;
-  max-width: 120rem;
+  max-width: 100rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
