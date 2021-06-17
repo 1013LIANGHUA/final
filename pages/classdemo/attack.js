@@ -1,7 +1,8 @@
 import React from 'react';
 import Layout from '../../components/Layout';
-import styles from './attack.module.css'
-
+import styles from './attack.module.css';
+// import './vendor';
+import './app';
 
 export default function attack() {
   return (
