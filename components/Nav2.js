@@ -68,9 +68,9 @@ export default function Nav2() {
               MealDB
             </a>
           </li>
-          <li className={styles.link}>
+          {/* <li className={styles.link}>
             <a href=''>連結</a>
-          </li>
+          </li> */}
           <li className={styles.link}>
             <a href='/Profile/Card'>個人資料</a>
           </li>

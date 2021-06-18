@@ -18,7 +18,7 @@ export default function HomePage() {
           </div>
         </div>
       </div>    */}
-      <div className={styles.container}>
+       <div className={styles.container}>
         <div className={styles.box1}>
           <h1>陳亮華</h1>
           <img
@@ -31,8 +31,8 @@ export default function HomePage() {
           <br />
           <a href='https://www.tku.edu.tw'> Tku.com </a>
         </div>
-      </div>
-
+      </div> 
+      
     </Layout>
   );
 }
