@@ -30,9 +30,9 @@ export default function Nav2() {
               <li className={styles.link}>
                 <a href='/resume/resume'>履歷</a>
               </li>
-              <li className={styles.link}>
+              {/* <li className={styles.link}>
                 <a href='#'>nono</a>
-              </li>
+              </li> */}
             </ul>
           </li>
           <li className={styles.link}>
