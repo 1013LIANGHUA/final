@@ -309,3 +309,13 @@ left: 45%;
   }
 ); */
 
+/*icon標誌*/
+.icon1{
+  position: absolute;
+  right: 42px;
+}
+.icon2{
+  position: absolute;
+  right: 79px;
+}
+

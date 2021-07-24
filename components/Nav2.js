@@ -7,15 +7,15 @@ export default function Nav2() {
   return (
     <div className={styles.container}>
       <Head>
-      <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
-      crossorigin="anonymous"
-    />
+        <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+          integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+          crossorigin="anonymous"
+        />
       </Head>
 
-      <nav className={styles.nav}> 
+      <nav className={styles.nav}>
         <ul>
           <li className={styles.link}>
             <a href='/'>Home</a>
@@ -77,15 +77,23 @@ export default function Nav2() {
           <li className={styles.link}>
             <a href='/about/me'>關於我</a>
           </li>
-          <li className={styles.icon}>
-          <a href='https://www.instagram.com/1013_0_0/'><i class="fab fa-instagram"></i></a>
+          <li className={styles.icon1}>
+            <a href='https://www.instagram.com/1013_0_0/'><i class="fab fa-instagram"></i></a>
           </li>
-          <li className={styles.icon}>
-          <a href='https://www.facebook.com/profile.php?id=100003388584955'><i class="fab fa-facebook"></i></a>
+          <li className={styles.icon2}>
+            <a href='https://www.facebook.com/profile.php?id=100003388584955'><i class="fab fa-facebook"></i></a>
           </li>
+          <li className={styles.icon3}>
+             <a href=''><i class="fa-solid fa-mailbox"></i></a>
+          </li>
+          <li className={styles.link}>
+            <a href='#'>作品集</a>
+            </li>
+          
+          
         </ul>
       </nav>
-  
+
 
     </div>
   );

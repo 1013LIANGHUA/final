@@ -18,6 +18,9 @@ export default function HomePage() {
           </div>
         </div>
       </div>    */}
+      <Head>
+        <base target="_self"></base>
+      </Head>
        <div className={styles.container}>
         <div className={styles.box1}>
           <h1>陳亮華</h1>
@@ -31,6 +34,22 @@ export default function HomePage() {
           <br />
           <a href='https://www.tku.edu.tw'> Tku.com </a>
         </div>
+        {/* <div className={styles.cool}>
+           email : <input type="email" name="useremail"></input>
+          <input type="submit"></input>
+          手機號碼: <input type="tel" name="usertel">                 
+          </input>
+        </div>
+        <form>
+          <label>選擇國家: </label>
+          <select name="country">
+            <optgroup label="國家名稱">
+              <option value="country1">日本</option>
+              <option value="country2">香港</option>
+              <option value="country3">印度</option>
+            </optgroup>
+          </select>
+        </form> */}
       </div>      
       
     </Layout>
