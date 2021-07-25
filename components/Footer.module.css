@@ -1,7 +1,7 @@
 .footer {
   margin: 100px 0 40px;
   /* text-align: center; */
-  color: white;
+  color: #ffffff;
   text-align: center;
   position: absolute;
   left: 40%;
@@ -9,9 +9,17 @@
 }
 .p {
   margin: 5px 0
+  /* font-size: 18px; */
+  /* background-color: rgb(190, 204, 204); */
   
 }
 
 .mail{
-  font-size: 15px;
+  font-size: 18px;
+  
+}
+
+.tel{
+  font-size: 18px;
+  text-align: auto;
 }

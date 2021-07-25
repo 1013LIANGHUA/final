@@ -86,9 +86,9 @@ export default function Nav2() {
           <li className={styles.icon3}>
              <a href=''><i class="fa-solid fa-mailbox"></i></a>
           </li>
-          <li className={styles.link}>
+          {/* <li className={styles.link}>
             <a href='#'>作品集</a>
-            </li>
+            </li> */}
           
           
         </ul>
