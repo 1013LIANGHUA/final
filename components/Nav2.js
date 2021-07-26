@@ -83,9 +83,8 @@ export default function Nav2() {
           <li className={styles.icon2}>
             <a href='https://www.facebook.com/profile.php?id=100003388584955'><i class="fab fa-facebook"></i></a>
           </li>
-          <li className={styles.icon3}>
-             <a href=''><i class="fa-solid fa-mailbox"></i></a>
-          </li>
+          
+          
           {/* <li className={styles.link}>
             <a href='#'>作品集</a>
             </li> */}

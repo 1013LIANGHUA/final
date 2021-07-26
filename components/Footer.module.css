@@ -8,10 +8,10 @@
   top: auto;
 }
 .p {
-  margin: 5px 0
+  margin: 5px 0;
   /* font-size: 18px; */
   /* background-color: rgb(190, 204, 204); */
-  
+  font-size: 2px;
 }
 
 .mail{
